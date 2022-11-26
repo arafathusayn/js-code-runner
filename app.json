@@ -1,0 +1,47 @@
+{
+  "name": "JS Run",
+  "title": "JS Run",
+  "description": "Run JavaScript locally",
+  "slug": "js-code-runner",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "app.sondhi.jscoderunner"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#FFFFFF"
+    },
+    "package": "app.sondhi.jscoderunner"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "fcf0f316-6634-4ef5-80c3-ede535cddfee"
+    }
+  },
+  "runtimeVersion": {
+    "policy": "sdkVersion"
+  },
+  "updates": {
+    "url": "https://u.expo.dev/fcf0f316-6634-4ef5-80c3-ede535cddfee",
+    "enabled": true,
+    "fallbackToCacheTimeout": 3000
+  },
+  "sdkVersion": "47.0.0",
+  "platforms": ["ios", "android"],
+  "currentFullName": "@arafathusayn/js-code-runner",
+  "originalFullName": "@arafathusayn/js-code-runner"
+}
