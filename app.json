@@ -28,15 +28,12 @@
     "favicon": "./assets/favicon.png"
   },
   "extra": {
-    "eas": {
-      "projectId": "fcf0f316-6634-4ef5-80c3-ede535cddfee"
-    }
+    "eas": {}
   },
   "runtimeVersion": {
     "policy": "sdkVersion"
   },
   "updates": {
-    "url": "https://u.expo.dev/fcf0f316-6634-4ef5-80c3-ede535cddfee",
     "enabled": true,
     "fallbackToCacheTimeout": 3000
   },
